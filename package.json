@@ -1,0 +1,36 @@
+{
+  "author": "OpusCapita (www.opuscapita.com)",
+  "name": "@opuscapita/react-perfect-scrollbar",
+  "version": "1.0.0",
+  "private": false,
+  "description": "OpusCapita react wrapper for perfect scrollbar",
+  "module": "src/index.js",
+  "scripts": {
+    "lint": "node_modules/.bin/eslint --ext .jsx,.js src/"
+  },
+  "engines": {
+    "node": ">=6.x.x",
+    "npm": ">=5.4.x"
+  },
+  "peerDependencies": {
+    "react": "15.4.x",
+    "react-dom": "15.4.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OpusCapita/react-perfect-scrollbar.git"
+  },
+  "devDependencies": {
+    "babel-eslint": "8.0.2",
+    "eslint": "4.11.0",
+    "eslint-config-airbnb": "16.1.0",
+    "eslint-plugin-import": "2.8.0",
+    "eslint-plugin-jsx-a11y": "6.0.2",
+    "eslint-plugin-react": "7.4.0",
+    "react": "15.4.2"
+  },
+  "dependencies": {
+    "perfect-scrollbar": "1.2.0",
+    "prop-types": "^15.6.0"
+  }
+}
