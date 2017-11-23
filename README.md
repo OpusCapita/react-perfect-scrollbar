@@ -1,8 +1,10 @@
 # React Perfect Scrollbar
 
 ### Description
-React wrapper for perfect-scrollbar with OpusCapita styles.
-Based on https://github.com/goldenyz/react-perfect-scrollbar
+React wrapper for [perfect-scrollbar](https://www.npmjs.com/package/perfect-scrollbar) with OpusCapita styles.
+
+- Updated to latest `perfect-scrollbar` version.
+- Based on https://github.com/goldenyz/react-perfect-scrollbar
 
 ### Code example
 
