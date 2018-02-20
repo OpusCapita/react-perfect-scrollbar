@@ -4,6 +4,9 @@
 
 ## <next>
 
+## 3.0.0
+* Use new react component template with es/cjs/umd builds
+
 ## 2.0.0
 * Use new react component template with module build
 
