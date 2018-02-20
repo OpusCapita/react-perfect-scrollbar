@@ -1,6 +1,6 @@
 ### Development workflow
 * Make a new branch
-* Run `npm run hot`
+* Run `npm run hot` to start examples in watch hot module replacement mode
 * Open `http://localhost:5555`
 
 ### Development workflow with project using the package
@@ -8,7 +8,7 @@
 * Run `npm link` at Component root to make your local package linkable
 * Run `npm link @opuscapita/package-name` at project's dir that's using the component to use local package
 ##### Build and watch the package
-* Run `npm run dev` to run webpack in watch mode
+* Run `npm run dev` to run dev builds in watch mode
 ##### Unlink local package
 * Run `npm unlink @opuscapita/package-name` at project's dir that's using the component
 

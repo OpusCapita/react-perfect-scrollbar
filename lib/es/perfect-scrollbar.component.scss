@@ -1,0 +1,8 @@
+.oc-scrollbar-container {
+  position: relative;
+  height: 100%;
+  .ps__rail-x,
+  .ps__rail-y {
+    opacity: 0.6;
+  }
+}
