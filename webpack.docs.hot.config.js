@@ -2,7 +2,7 @@ const webpack = require('webpack');
 const WriteFilePlugin = require('write-file-webpack-plugin');
 const path = require('path');
 const merge = require('webpack-merge');
-const devConfig = require('./webpack.config');
+const devConfig = require('./webpack.docs.config');
 
 const hotConfig = {
   plugins: [

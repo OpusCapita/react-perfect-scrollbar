@@ -116,6 +116,7 @@ const baseConfig = {
       'node_modules',
     ],
     extensions: ['.js', '.jsx'],
+    mainFields: ['es', 'cjs', 'browser', 'module', 'es:next', 'main'],
   },
   // Add your peer dependencies here to avoid bundling them to build
   externals: {
