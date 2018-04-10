@@ -2,8 +2,8 @@ import React from 'react';
 import { render } from 'react-dom';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { AppContainer } from 'react-hot-loader';
+import 'classlist-polyfill';
 import ExampleContainer from './containers/example.container';
-
 import './app.component.scss';
 import './images/favicon.ico';
 
