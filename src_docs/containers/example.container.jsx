@@ -2,8 +2,10 @@ import React from 'react';
 import { Panel, Grid, Row, Col } from 'react-bootstrap';
 import PerfectScrollbarComponent from '../components/perfectscrollbar.component';
 import NormalScrollbarComponent from '../components/normalscrollbar.component';
+import SVGScrollbarComponent from '../components/svg-based.component';
 import GithubLogo from '../images/logo-github.svg';
 import './example.container.scss';
+
 
 export default () => (
   <Grid>
@@ -34,6 +36,16 @@ export default () => (
         </Row>
         <Panel className="scrollContent normal">
           <NormalScrollbarComponent />
+        </Panel>
+      </Col>
+      <Col xs={12} md={6}>
+        <Row>
+          <Col xs={12}>
+            <h3>Scrollbar with SVGs</h3>
+          </Col>
+        </Row>
+        <Panel className="scrollContent">
+          <SVGScrollbarComponent />
         </Panel>
       </Col>
     </Row>
