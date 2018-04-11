@@ -3,6 +3,9 @@
 * In general follow (https://docs.npmjs.com/getting-started/semantic-versioning) versioning.
 
 ## <next>
+
+
+## 3.0.1
 * Added classlist-polyfill to remove console errors in IE browsers
 * Examples updated with svgs inside scrollbar.
 
