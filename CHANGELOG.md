@@ -4,6 +4,9 @@
 
 ## <next>
 
+## 3.0.3
+* update dependencies.
+
 ## 3.0.2
 * Fix: Change classlist-polyfill imports into component instead of just example.
 
