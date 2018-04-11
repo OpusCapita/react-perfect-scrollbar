@@ -3,7 +3,7 @@
 * In general follow (https://docs.npmjs.com/getting-started/semantic-versioning) versioning.
 
 ## <next>
-
+* Fix: Change classlist-polyfill imports into component instead of just example.
 
 ## 3.0.1
 * Added classlist-polyfill to remove console errors in IE browsers
