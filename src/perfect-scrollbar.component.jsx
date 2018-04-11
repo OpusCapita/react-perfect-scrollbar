@@ -2,6 +2,7 @@
 import React from 'react';
 import { PropTypes } from 'prop-types';
 import PerfectScrollbar from 'perfect-scrollbar';
+import 'classlist-polyfill';
 import 'perfect-scrollbar/css/perfect-scrollbar.css';
 import './perfect-scrollbar.component.scss';
 
