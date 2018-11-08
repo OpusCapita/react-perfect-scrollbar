@@ -4,8 +4,12 @@
 
 ## <next>
 
+## 3.0.4
+* Upgrade all possible dependencies without upgrading webpack@4 or babel@7
+* Fix peerDependency strict version requirements
+
 ## 3.0.3
-* update dependencies.
+* Upgrade dependencies.
 
 ## 3.0.2
 * Fix: Change classlist-polyfill imports into component instead of just example.

@@ -1,5 +1,5 @@
-require('babel-register')({
-  ignore: /node_modules/,
-});
+require('babel-register')();
 require('ignore-styles');
-require('global-jsdom')();
+require('global-jsdom')(undefined, {
+  url: 'http://localhost',
+});
