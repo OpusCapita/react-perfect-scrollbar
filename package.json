@@ -5,9 +5,10 @@
   "private": false,
   "license": "MIT",
   "description": "OpusCapita react wrapper for perfect scrollbar",
-  "main": "lib/umd/react-perfect-scrollbar.js",
+  "main": "lib/umd/index.js",
   "es": "lib/es/index.js",
   "cjs": "lib/cjs/index.js",
+  "types": "lib/cjs/index.d.ts",
   "scripts": {
     "clean": "rimraf lib",
     "build": "npm-run-all clean build:*",
