@@ -8,6 +8,7 @@
   "main": "lib/umd/react-perfect-scrollbar.js",
   "es": "lib/es/index.js",
   "cjs": "lib/cjs/index.js",
+  "types": "lib/cjs/index.d.ts",
   "scripts": {
     "clean": "rimraf lib",
     "build": "npm-run-all clean build:*",
